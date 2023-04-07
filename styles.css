@@ -4,9 +4,11 @@ body {
   	padding: 0;
 }
 
-.sidebar h1 {
-  font-family: "Playfair Display", serif;
-  font-size: 350%;
+.topnav {
+    background-color: palevioletred
+}
+.topnav h1 {
+  float: left
   color: #f5c9dd;
   display: block;
   padding: 16px;
@@ -14,9 +16,13 @@ body {
   margin:0;
   font-weight: 600;
   text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 350%;
 }
 
-.sidebar h2 {
+
+.topnav h2 {
+  float:left
   font-family: "Playfair Display", serif;
   font-size: 150%;
   color: #f5c9dd;
@@ -28,7 +34,10 @@ body {
   text-align: center;
 }
 
-.sidebar h3{
+
+
+.topnav h3{
+  float: left
   font-family: "Playfair Display", serif;
   color: #f5c9dd;
   display: block;
@@ -37,6 +46,7 @@ body {
   font-weight: 400;
   text-align: center;
 }
+
 
 #colophon {
   padding-top: 20px;
@@ -98,7 +108,7 @@ div.content {
 }
 
  /* The side navigation menu */
-.sidebar {
+.topnav {
   margin: 0;
   padding: 0;
   width: 350px;          /* <--- CHANGE US TOGETHER */
@@ -109,7 +119,7 @@ div.content {
 }
 
 /* Sidebar links */
-.sidebar a {
+.topnav a {
   font-family: "Playfair Display", serif;
   display: block;
   color: #f5c9dd;
@@ -133,13 +143,13 @@ div.content {
 }
 
 /* Active/current link */
-.sidebar a.active {
+.topnav a.active {
   background-color: #4c4a6c;
   color: #f5c9dd;
 }
 
 /* Links on mouse-over */
-.sidebar a:hover:not(.active) {
+.topnav a:hover:not(.active) {
   background-color: #393751;
   color: #f5c9dd;
 }
@@ -151,12 +161,12 @@ div.content {
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 700px) {
-  .sidebar {
+  .topnav {
     width: 100%;
     height: auto;
     position: relative;
   }
-  .sidebar a {float: left;}
+  .topnav a {float: left;}
   div.content {margin-left: 0;}
   
   div.content{
@@ -169,7 +179,7 @@ div.content {
 
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
 @media screen and (max-width: 400px) {
-  .sidebar a {
+  .topnav a {
     text-align: center;
     float: none;
     padding: 0px;
