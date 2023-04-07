@@ -4,7 +4,7 @@ body {
   	padding: 0;
 }
 
-.topbar h1 {
+.sidebar h1 {
   font-family: "Playfair Display", serif;
   font-size: 350%;
   color: #f5c9dd;
@@ -16,7 +16,7 @@ body {
   text-align: center;
 }
 
-.topbar h2 {
+.sidebar h2 {
   font-family: "Playfair Display", serif;
   font-size: 150%;
   color: #f5c9dd;
@@ -27,8 +27,8 @@ body {
   font-style: italic;
   text-align: center;
 }
- 
-.topbar h3{
+
+.sidebar h3{
   font-family: "Playfair Display", serif;
   color: #f5c9dd;
   display: block;
@@ -51,7 +51,7 @@ body {
 }
 
 .content p {
-  font-family: "Times New Roman", serif;
+  font-family: "Roboto", serif;
   font-size: 130%;
   
 }
@@ -98,7 +98,7 @@ div.content {
 }
 
  /* The side navigation menu */
-.topbar {
+.sidebar {
   margin: 0;
   padding: 0;
   width: 350px;          /* <--- CHANGE US TOGETHER */
@@ -109,7 +109,7 @@ div.content {
 }
 
 /* Sidebar links */
-.topbar a {
+.sidebar a {
   font-family: "Playfair Display", serif;
   display: block;
   color: #f5c9dd;
@@ -133,13 +133,13 @@ div.content {
 }
 
 /* Active/current link */
-.topbar a.active {
+.sidebar a.active {
   background-color: #4c4a6c;
   color: #f5c9dd;
 }
 
 /* Links on mouse-over */
-.topbar a:hover:not(.active) {
+.sidebar a:hover:not(.active) {
   background-color: #393751;
   color: #f5c9dd;
 }
@@ -151,12 +151,12 @@ div.content {
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 700px) {
-  .topbar {
+  .sidebar {
     width: 100%;
     height: auto;
     position: relative;
   }
-  .topbar a {float: left;}
+  .sidebar a {float: left;}
   div.content {margin-left: 0;}
   
   div.content{
@@ -169,7 +169,7 @@ div.content {
 
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
 @media screen and (max-width: 400px) {
-  .topbar a {
+  .sidebar a {
     text-align: center;
     float: none;
     padding: 0px;
