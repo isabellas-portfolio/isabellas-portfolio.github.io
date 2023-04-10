@@ -4,6 +4,13 @@ body {
   	padding: 0;
 }
 
+<div class+"topnav">
+<a class="active" href="#about">About</a>
+<a href="#shortimaginedmonologue">Short Imagined Monologue</a>
+<a href="#wikipedia">Wikipedia Edits</a>
+<a href="#digitaltool">Review of a Digital Tool</a>
+
+
 .topnav {
     background-color: palevioletred
 }
@@ -155,7 +162,7 @@ div.content {
 }
 
 #colophon a:hover:not(.active) {
-  background-color: 262536;
+  background-color: #262536;
   color: #f5c9dd;
 }
 
