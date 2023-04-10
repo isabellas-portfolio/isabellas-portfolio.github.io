@@ -13,6 +13,7 @@ body {
 
 .topnav {
     background-color: palevioletred
+    overflow: hidden;
 }
 .topnav h1 {
   float: left
