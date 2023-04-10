@@ -4,11 +4,6 @@ body {
   	padding: 0;
 }
 
-<div class+"topnav">
-<a class="active" href="#about">About</a>
-<a href="#shortimaginedmonologue">Short Imagined Monologue</a>
-<a href="#wikipedia">Wikipedia Edits</a>
-<a href="#digitaltool">Review of a Digital Tool</a>
 
 
 .topnav {
@@ -118,23 +113,21 @@ div.content {
  /* The side navigation menu */
 .topnav {
   margin: 0;
-  padding: 0;
-  width: 350px;          /* <--- CHANGE US TOGETHER */
+  padding: 0;       
   background-color: #c20057;
-  position: fixed;
-  height: 100%;
   overflow: auto;
 }
 
 /* Sidebar links */
 .topnav a {
+  float: left;
+  text-align: center;
   font-family: "Playfair Display", serif;
   display: block;
   color: #f5c9dd;
   padding: 16px;
   padding-right: 30px;
   text-decoration: none;
-  text-align: right;
   font-size: 125%;
 }
 
