@@ -103,7 +103,7 @@ body {
 
 /* Page content. The content margin-left must match the sidebar width */
 div.content {
-  margin-left: 350px;    /* <--- CHANGE US TOGETHER*/
+  margin-left: 300px;    /* <--- CHANGE US TOGETHER*/
   padding-top: 75px;
   padding-left: 25px;
   padding-right: 16px;
