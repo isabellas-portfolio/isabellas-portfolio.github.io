@@ -52,8 +52,9 @@ body {
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: #f5c9dd;
-  color: white;
+  background-color: #4c4a6c;
+  font-family: "Playfair Display", serif;
+  color: #f5c9dd;
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -69,7 +70,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #c20057;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -79,12 +80,13 @@ body {
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
+  font-family: "Playfair Display", serif;
   text-decoration: none;
   display: block;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #c20057;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
